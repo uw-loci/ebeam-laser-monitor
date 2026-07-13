@@ -35,7 +35,7 @@ The dashboard should open the Arduino USB serial port with:
 | Line ending | `\n` |
 | Encoding | ASCII |
 
-The dashboard driver is expected to poll the Arduino regularly. The current dashboard driver sends `PING` every 500 ms and sends `STATE` whenever either indicator boolean changes.
+The dashboard driver is expected to poll the Arduino regularly. The current dashboard driver sends `STATE` every 500 ms and whenever either indicator boolean changes.
 
 ## Communication Protocol
 
